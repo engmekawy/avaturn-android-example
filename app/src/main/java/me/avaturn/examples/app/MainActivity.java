@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        String URL = "https://demo.avaturn.dev/iframe"; // Replace with your project's domain
+        String URL = "https://mekawy.avaturn.dev/iframe"; // Replace with your project's domain
         Uri uri = Uri.parse(URL);
         String projectDomain = uri.getScheme() + "://" + uri.getHost();
 
